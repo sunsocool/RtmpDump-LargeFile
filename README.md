@@ -6,3 +6,6 @@ RtmpDump Version 2.4 Large File BugFix. "Unexpected start of file, error in tag 
   So I download the source file,try and try again finally the project works, and then check and check again ... At last I figure out what's wrong with the program. In the last version seems trying to fix the large file problem using  ftello instead of ftell .But the fseek function remains the same ,when execute   fseek(file, 0, SEEK_END);   size = ftello(file);  Actually  ftello(file) returns 0 to size.Finally I figure out the bug is that replace all fseek with fseeko to deal with large file problem.
   
   Thanks for RtmpDump team proving this wonderful software stack.
+  
+  How to use, 
+  that's easy just copy these four files to rtmpdump work directory cover original rtmpdump.exe file
