@@ -7,5 +7,6 @@ RtmpDump Version 2.4 Large File BugFix. "Unexpected start of file, error in tag 
   
   Thanks for RtmpDump team proving this wonderful software stack.
   
-  How to use, 
-  that's easy just copy these four files to rtmpdump work directory cover original rtmpdump.exe file
+  How to use, that's easy. 
+  
+  just copy these four files to rtmpdump work directory cover original rtmpdump.exe file
